@@ -1,0 +1,76 @@
+:root{--bg:#050207;--panel:#0c0710;--pink:#f018f3;--purple:#8900ff;--muted:#9e94a4;--line:#28142e}*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:var(--bg);color:#faf7fb;font-family:Inter,Arial,sans-serif}.wrap{width:min(1160px,calc(100% - 40px));margin:auto}header{position:fixed;z-index:10;width:100%;background:linear-gradient(#060208ed,transparent);backdrop-filter:blur(6px)}nav{height:80px;display:flex;align-items:center;justify-content:space-between}.brand{font:15px "Press Start 2P";color:#fff;text-decoration:none}.brand span{color:var(--pink)}.links{display:flex;gap:27px;align-items:center}.links a{color:#bcb2c1;text-decoration:none;font-size:13px;font-weight:700}.links a:hover{color:#fff}.join-nav{border:1px solid #66306f;padding:11px 15px;color:#fff!important}.menu{display:none;background:none;border:0;color:white;font-size:25px}.hero{height:100vh;min-height:760px;display:grid;place-items:center;position:relative;overflow:hidden;background:radial-gradient(circle at 50% 44%,#300038,transparent 40%),linear-gradient(#08030c,#050207)}.grid{position:absolute;inset:-40%;background-image:linear-gradient(#d20cff0a 1px,transparent 1px),linear-gradient(90deg,#d20cff0a 1px,transparent 1px);background-size:48px 48px;transform:perspective(600px) rotateX(62deg) translateY(20%)}.glow{position:absolute;width:800px;height:500px;background:#bd00ff1c;filter:blur(90px);border-radius:50%}.hero-inner{text-align:center;z-index:2;padding-top:60px}.tag,.kicker{font:9px "Press Start 2P";letter-spacing:1px;color:#c86ed2}.tag i,.status i{display:inline-block;width:8px;height:8px;border-radius:50%;background:#51ff8d;box-shadow:0 0 12px #51ff8d;margin-right:9px}.logo{width:min(760px,90vw);display:block;margin:22px auto 8px;filter:drop-shadow(0 22px 40px #c400ff55)}.lead{max-width:690px;margin:0 auto 27px;color:#bbb0bf;line-height:1.75}.lead b{color:#fff}.actions{display:flex;justify-content:center;gap:12px}.btn{padding:15px 20px;text-decoration:none;font:9px "Press Start 2P";border:1px solid #64306d}.primary{background:linear-gradient(135deg,#dc15e9,#7e0ed7);color:#fff;box-shadow:0 0 30px #d900ff35}.secondary{background:#120916;color:#eee}.status{width:min(670px,95%);margin:40px auto 0;padding:14px 17px;border:1px solid #301737;background:#09060dc9;display:flex;justify-content:space-between;text-align:left}.status>div,.status button{display:flex;align-items:center}.status small,.ip small{display:block;color:#736a77;font-size:8px;letter-spacing:1.2px;font-weight:800;margin-bottom:5px}.status strong{font-size:12px}.status button{gap:12px;background:none;border:0;border-left:1px solid #29142f;padding-left:25px;color:#fff;cursor:pointer}.status button b{color:var(--pink);font-size:18px}.section{padding:105px 0;border-top:1px solid #160b19}.split{display:grid;grid-template-columns:1fr 1fr;gap:90px;align-items:center}h2{font:clamp(27px,4vw,49px)/1.35 "Press Start 2P";margin:17px 0}h2 em{font-style:normal;color:var(--pink);text-shadow:0 0 24px #ed14ef44}.bodycopy{color:var(--muted);line-height:1.9}.center{text-align:center}.dark{background:linear-gradient(#07030a,#0b0610,#07030a)}.cards{display:grid;grid-template-columns:repeat(3,1fr);gap:16px;margin-top:43px}.cards article{position:relative;min-height:290px;padding:30px;border:1px solid var(--line);background:#0b0710;transition:.25s}.cards article:hover{transform:translateY(-6px);border-color:#7d3188}.cards .hot{background:linear-gradient(150deg,#19091e,#0c0710);box-shadow:inset 0 0 60px #e000ff0d}.n{position:absolute;right:20px;top:18px;font:9px "Press Start 2P";color:#3f2944}.ico{font-size:36px;color:var(--pink);text-shadow:0 0 20px #e80fff;margin:35px 0}.cards h3{font:12px/1.6 "Press Start 2P"}.cards p{color:#918697;line-height:1.7;font-size:14px}.rules{display:grid;grid-template-columns:1fr 1fr;margin-top:42px;border-top:1px solid var(--line)}.rules>div{display:flex;gap:25px;padding:28px 14px;border-bottom:1px solid var(--line)}.rules>div:nth-child(odd){border-right:1px solid var(--line)}.rules b{font:9px "Press Start 2P";color:var(--pink)}.rules p{margin:0;color:#8c8291;line-height:1.7}.rules strong{color:#eee}.join{text-align:center}.joinbox{padding:70px 30px;border:1px solid #3a1941;background:radial-gradient(circle at 50% 0,#370040,transparent 55%),#09050d;box-shadow:0 30px 90px #000}.joinbox>p{color:#9e94a3}.ip{width:min(520px,100%);margin:28px auto 0;padding:18px 20px;display:flex;justify-content:space-between;align-items:center;text-align:left;background:#07030a;border:1px solid #592362;color:#fff;cursor:pointer}.ip strong{font-size:17px}.ip>b{font:9px "Press Start 2P";color:var(--pink)}.hint{font-size:11px!important;color:#665c6a!important}footer{padding:28px 0;border-top:1px solid #1c0d20}.foot{display:flex;justify-content:space-between;align-items:center;color:#665c69;font-size:11px}.foot .brand{font-size:10px}@media(max-width:760px){.menu{display:block}.links{display:none;position:absolute;top:70px;left:20px;right:20px;padding:22px;background:#0b0610;border:1px solid #2b1732;flex-direction:column}.links.open{display:flex}.hero{min-height:760px}.lead{font-size:14px}.actions{flex-direction:column;align-items:center}.btn{width:min(310px,90%)}.status{display:block}.status button{border-left:0;border-top:1px solid #29142f;padding:13px 0 0;margin-top:13px;width:100%;justify-content:space-between}.split,.cards,.rules{grid-template-columns:1fr;gap:20px}.rules>div:nth-child(odd){border-right:0}.section{padding:75px 0}h2{font-size:27px}.foot{flex-direction:column;gap:13px}.ip strong{font-size:13px}.ip>b{font-size:7px}}
+.discord{background:#16101d;color:#fff;border-color:#9b35ad}.discord:hover{border-color:#f018f3;box-shadow:0 0 24px #d900ff2d}
+.status .players{display:flex;align-items:center;gap:12px;border-left:1px solid #29142f;padding-left:25px}.status .players b{color:var(--pink);font-size:18px}.join-actions{width:min(600px,100%);margin:28px auto 0;display:grid;gap:10px}.join-actions .ip{width:100%;margin:0}.discord-card{padding:18px 20px;display:flex;justify-content:space-between;align-items:center;text-align:left;background:#120817;border:1px solid #592362;color:#fff;text-decoration:none}.discord-card small{display:block;color:#8c728f;font-size:8px;letter-spacing:1.2px;font-weight:800;margin-bottom:5px}.discord-card strong{font-size:14px}.discord-card>b{font:9px "Press Start 2P";color:var(--pink)}
+@media(max-width:760px){.status .players{border-left:0;border-top:1px solid #29142f;padding:13px 0 0;margin-top:13px;justify-content:space-between}}
+
+.events-section{background:linear-gradient(180deg,#050207,#0b0510 55%,#050207)}
+.events-head{display:grid;grid-template-columns:1fr 1fr;gap:80px;align-items:end}.events-head>p{color:#958a9a;line-height:1.8;margin-bottom:24px}
+.event-grid{display:grid;grid-template-columns:1.35fr .65fr;gap:16px;margin-top:40px}.event-card{min-height:260px;display:flex;border:1px solid #2c1532;background:#0a060e;overflow:hidden}.event-card.featured{background:radial-gradient(circle at 0 0,#35103c,transparent 55%),#0a060e;border-color:#55205f}.event-date{width:135px;flex:0 0 135px;display:flex;flex-direction:column;align-items:center;justify-content:center;border-right:1px solid #2c1532;background:#0d0711}.event-date strong{font:24px "Press Start 2P";color:var(--pink);text-shadow:0 0 18px #e817ef66}.event-date span{margin-top:13px;font:7px "Press Start 2P";color:#6f6374;text-align:center;line-height:1.6}.event-info{padding:35px;display:flex;flex-direction:column;justify-content:center}.event-tag{width:max-content;padding:7px 9px;border:1px solid #84308f;color:#f67cff;font:7px "Press Start 2P";margin-bottom:18px}.muted-tag{border-color:#49304e;color:#88788c}.event-info h3{font:13px/1.7 "Press Start 2P";margin:0 0 12px}.event-info p{color:#928697;line-height:1.7;font-size:14px;margin:0 0 18px}.event-info a{color:var(--pink);text-decoration:none;font:8px "Press Start 2P"}
+@media(max-width:760px){.events-head,.event-grid{grid-template-columns:1fr;gap:18px}.event-card{min-height:0}.event-date{width:95px;flex-basis:95px}.event-info{padding:25px 20px}.event-date strong{font-size:16px}}
+
+/* v5: simple Passion Project treatment replacing the old server-status UI */
+.status{display:none!important}
+.passion-badge{
+  width:max-content;
+  max-width:95%;
+  margin:38px auto 0;
+  display:flex;
+  align-items:center;
+  gap:14px;
+  text-align:left;
+}
+.passion-icon{
+  color:var(--pink);
+  font-size:22px;
+  text-shadow:0 0 18px #f018f3,0 0 34px #8900ff;
+}
+.passion-badge small{
+  display:block;
+  margin-bottom:7px;
+  color:#776b7d;
+  font-size:7px;
+  font-weight:800;
+  letter-spacing:2px;
+}
+.passion-badge strong{
+  display:block;
+  font:11px "Press Start 2P";
+  color:#fff;
+  text-shadow:0 0 18px #f018f344;
+}
+
+/* Final polish */
+header{transition:background .25s,border-color .25s;border-bottom:1px solid transparent}
+header.scrolled{background:#07030aeb;border-color:#211026}
+.glitch-pixels{position:absolute;inset:0;pointer-events:none;overflow:hidden}
+.glitch-pixels i{position:absolute;width:5px;height:5px;background:#ed21ff;opacity:.25;box-shadow:0 0 12px #ed21ff;animation:pixelFloat 7s ease-in-out infinite}
+.glitch-pixels i:nth-child(1){left:12%;top:30%;animation-delay:-1s}.glitch-pixels i:nth-child(2){left:25%;top:67%;width:3px;height:3px;animation-delay:-4s}.glitch-pixels i:nth-child(3){left:78%;top:28%;animation-delay:-2s}.glitch-pixels i:nth-child(4){left:89%;top:62%;width:3px;height:3px;animation-delay:-5s}.glitch-pixels i:nth-child(5){left:65%;top:76%;animation-delay:-3s}.glitch-pixels i:nth-child(6){left:8%;top:78%;width:3px;height:3px;animation-delay:-6s}
+@keyframes pixelFloat{0%,100%{transform:translateY(0);opacity:.12}50%{transform:translateY(-18px);opacity:.5}}
+.scroll-cue{position:absolute;bottom:25px;left:50%;transform:translateX(-50%);display:flex;flex-direction:column;align-items:center;gap:8px;color:#655a69;text-decoration:none;font:6px "Press Start 2P";letter-spacing:2px}
+.scroll-cue span{width:1px;height:28px;background:linear-gradient(var(--pink),transparent);animation:scrollPulse 1.8s ease-in-out infinite}
+@keyframes scrollPulse{0%,100%{opacity:.25;transform:scaleY(.6);transform-origin:top}50%{opacity:1;transform:scaleY(1)}}
+.cards article:before{content:"";position:absolute;left:-1px;top:-1px;width:22px;height:2px;background:var(--pink);box-shadow:0 0 12px #f018f3}
+.footer-discord{color:#9b8da0;text-decoration:none;font:7px "Press Start 2P";transition:.2s}.footer-discord:hover{color:var(--pink);text-shadow:0 0 12px #f018f366}
+::selection{background:#d514e9;color:#fff}
+@media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}.glitch-pixels i,.scroll-cue span{animation:none}}
+
+/* Event archive + final event polish */
+.event-tabs{display:flex;gap:10px;margin:34px 0 18px;border-bottom:1px solid #28142e}
+.event-tab{appearance:none;border:0;border-bottom:2px solid transparent;background:transparent;color:#6f6474;padding:12px 4px 14px;margin-right:18px;cursor:pointer;font:8px "Press Start 2P";transition:.2s}
+.event-tab:hover{color:#d5cbd8}.event-tab.active{color:var(--pink);border-bottom-color:var(--pink);text-shadow:0 0 12px #f018f355}
+.event-list{display:none}.event-list.active{display:grid}
+.event-card.halloween{background:radial-gradient(circle at 12% 50%,#47103d55,transparent 42%),#0a060e}
+.event-card.nether{background:radial-gradient(circle at 100% 100%,#3b112744,transparent 48%),#0a060e}
+.event-card.circus{background:radial-gradient(circle at 0 100%,#2b103744,transparent 45%),#0a060e}
+.ended{opacity:.72;filter:saturate(.65)}.ended-tag{border-color:#514756;color:#8f8493}
+@media(min-width:761px){.event-grid{grid-template-columns:2fr 1fr}.event-card.circus{grid-column:1/-1}.event-list[data-events="past"]{grid-template-columns:1fr}.event-list[data-events="past"] .event-card{max-width:none}}
+
+/* Discord account login */
+.auth-slot{display:flex;align-items:center}
+.discord-login{padding:11px 14px!important;border:1px solid #593061;color:#ddd!important;font:7px "Press Start 2P"!important;white-space:nowrap}
+.discord-login:hover{border-color:var(--pink);color:#fff!important;box-shadow:0 0 18px #f018f322}
+.discord-user{display:flex;align-items:center;gap:9px;padding:6px 10px;border:1px solid #38203e;background:#0c0710}
+.discord-user img{width:27px;height:27px;border-radius:4px;image-rendering:auto}
+.discord-user span{font-size:11px;font-weight:800;color:#eee;max-width:110px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.discord-user a{padding:0!important;color:#776b7d!important;font-size:10px!important}
+@media(max-width:760px){.auth-slot{width:100%;justify-content:center}}
